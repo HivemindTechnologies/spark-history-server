@@ -3,6 +3,16 @@ entries:
   spark-history-server:
   - apiVersion: v2
     appVersion: v2.3.1
+    created: "2022-05-20T17:01:52.833791582Z"
+    description: A Helm chart for Spark History Server
+    digest: 753d737b17b61d110f38ced8b82a491112d7ca7f5b1fe4b65d86ddeaebf0a889
+    name: spark-history-server
+    type: application
+    urls:
+    - https://github.com/HivemindTechnologies/spark-history-server/releases/download/spark-history-server-1.0.1/spark-history-server-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: v2.3.1
     created: "2022-05-20T15:54:47.135446329Z"
     description: A Helm chart for Spark History Server
     digest: 368be47e8c0c1a51d33a9fc293bb5a075c5d217e429522c60bae3d34b94ca6dc
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/HivemindTechnologies/spark-history-server/releases/download/spark-history-server-1.0.0/spark-history-server-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-20T15:54:47.13547383Z"
+generated: "2022-05-20T17:01:52.833799182Z"
