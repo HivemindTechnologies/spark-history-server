@@ -1,4 +1,4 @@
-ARG SPARK_VERSION=3.2.1
+ARG SPARK_VERSION=3.3.1
 
 FROM apache/spark:v${SPARK_VERSION}
 
@@ -8,8 +8,8 @@ RUN \
   apt full-upgrade -y &&\
   apt clean
 
-ARG AWS_SDK_VERSION=1.12.224
-ARG HADOOP_VERSION=3.3.1
+ARG AWS_SDK_VERSION=1.12.392
+ARG HADOOP_VERSION=3.3.4
 ARG MAVEN_REPO_URL=https://repo.maven.apache.org/maven2
 
 ADD ${MAVEN_REPO_URL}/com/amazonaws/aws-java-sdk-core/${AWS_SDK_VERSION}/aws-java-sdk-core-${AWS_SDK_VERSION}.jar $SPARK_HOME/jars/

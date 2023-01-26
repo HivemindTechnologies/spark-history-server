@@ -3,4 +3,4 @@ name: spark-history-server
 description: A Helm chart for Spark History Server
 type: application
 version: 1.0.3
-appVersion: v3.2.1
+appVersion: v3.3.1
